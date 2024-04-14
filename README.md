@@ -14,5 +14,10 @@ Setup lua project.
 hererocks . --lua 5.4.6 --luarocks latest
 ```
 
-hererocks.exe . --lua 5.4.6 --luarocks latest
 
+test
+```bash
+lua main.lua test.md
+
+# generated test.md.html
+```
